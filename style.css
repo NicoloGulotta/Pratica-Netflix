@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: auto;
+    width: 1530px;
+  
+}
+
+div.background {
+    background-image: url('/882548.jpg');
+    background-size: auto;
+    width: 2000px;
+}
+
+div.text {
+    color: aliceblue;
+    padding: 100px;
+    width: 600px;
+    height: auto;
+}
+
+div.title h1 {
+    width: max-content;
+    font-size: 50pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+}
+
+div.info-series2 {
+    display: flex;
+    flex-direction: column;
+}
+
+div.sinossi {
+    margin: 20px 0;
+}
+
+span.green {
+    color: green;
+    font-weight: 700;
+}
+
+span.margine {
+    border: solid 2px rgb(255, 255, 255);
+}
+
+span.actors {
+    margin-bottom: 20px;
+}
+div.line{
+    margin-bottom: 30px;
+}
+div.line img {
+    width: 230px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.pic :hover{
+    box-shadow: 10px 10px 10px white;
+}
+
